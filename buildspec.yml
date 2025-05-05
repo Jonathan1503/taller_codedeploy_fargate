@@ -10,7 +10,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t t5_app .
-      -docker tag t5_app:latest 173961276629.dkr.ecr.us-east-1.amazonaws.com/t5_app:latest
+      - docker tag t5_app:latest 173961276629.dkr.ecr.us-east-1.amazonaws.com/t5_app:latest
   post_build:
     commands:
       - echo Build completed on `date`
