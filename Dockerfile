@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lts/ubuntu:latest
+FROM public.ecr.aws/docker/library/alpine:latest
 
 RUN apk add py3-pip \
     && pip install --upgrade pip
