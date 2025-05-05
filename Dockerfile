@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM public.ecr.aws/lts/ubuntu:latest
 
 RUN apk add py3-pip \
     && pip install --upgrade pip
